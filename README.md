@@ -256,5 +256,5 @@ This will display a summary of all tasks and their descriptions.
 
 ## Additional Information
 
-- Ensure all dependencies are installed using `pnpm` before running the tasks.
+- Ensure all dependencies are installed using `bun` before running the tasks.
 - The tasks are defined in the `Makefile` for ease of use and to maintain consistency across development and build processes.

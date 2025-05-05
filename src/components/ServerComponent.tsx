@@ -15,7 +15,7 @@ export const ServerPokemonComponent = async () => {
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
       }}
     >
-      <p style={{ fontSize: "1.5em", color: "#333" }}>Server Component</p>
+      <p className={"animate-pulse"} style={{ fontSize: "1.5em", color: "#333" }}>Server Component</p>
       <br />
       <h1 style={{ fontSize: "2.5em", color: "#d32f2f" }}>{pokemon.name}</h1>
       <img

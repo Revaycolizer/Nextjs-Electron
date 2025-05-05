@@ -6,39 +6,39 @@ default: help
 
 # Next.js tasks
 next_dev:
-	pnpm next dev --turbo
+	bun next dev --turbo
 
 next_build:
-	NODE_ENV=production pnpm next build
+	NODE_ENV=production bun next build
 
 next_start:
-	pnpm next start
+	bun next start
 
 next_lint:
-	pnpm next lint
+	bun next lint
 
 # Formatting task
 format:
-	pnpm dprint fmt
+	bun dprint fmt
 
 # Electron tasks
 postinstall:
-	pnpm electron-builder install-app-deps
+	bun electron-builder install-app-deps
 
 electron_dist:
-	pnpm electron-builder --dir
+	bun electron-builder --dir
 
 electron_dist_deb:
-	pnpm electron-builder --linux deb
+	bun electron-builder --linux deb
 
 electron_build:
-	pnpm tsup
+	bun tsup
 
 electron_build_watch:
-	pnpm tsup --watch
+	bun tsup --watch
 
 electron_dev:
-	pnpm cross-env NODE_ENV='development' nodemon
+	bun cross-env NODE_ENV='development' nodemon
 
 # Composite tasks
 build:

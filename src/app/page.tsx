@@ -4,7 +4,7 @@ import { ServerPokemonComponent } from "@/components/ServerComponent";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-around p-24 flex-row">
+    <main className="flex min-h-screen items-center justify-around p-24 gap-20 flex-row">
       <ElectronCheck />
 
       <ServerPokemonComponent />
