@@ -38,7 +38,8 @@ electron_build_watch:
 	bun tsup --watch
 
 electron_dev:
-	bun cross-env NODE_ENV='development' nodemon
+	bun cross-env NODE_ENV='development' nodemon --watch build --exec "electron . --no-sandbox"
+
 
 # Composite tasks
 build:
