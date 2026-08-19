@@ -36,14 +36,14 @@
     "next": "^16.0.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "sharp": "^0.34.5",
+    "sharp": "^0.35.3",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
-    "electron": "^39.2.1",
+    "electron": "^43.4.1",
     "electron-builder": "^26.0.12",
     "eslint": "^9.39.1",
     "eslint-config-next": "^16.0.3",
